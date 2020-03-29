@@ -163,11 +163,29 @@
 
             </div>
             <div class="col-sm-6">
-                <div class="card">
+                <div class="card center">
                     <div class="card-body">
                         Latest News
                     </div>
                 </div>
+
+                <div class="card-center" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h3 class="card-title">Office Notice</h3>
+                        <p class="card-text">Stay at home for saftey self and nation. </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Admission NOtice</li>
+                        <li class="list-group-item">Admission Result</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
 
                 </div>
 
@@ -178,15 +196,68 @@
                     </div>
                 </div>
 
+                <div class="card-center" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h3 class="card-title">Office Notice</h3>
+                        <p class="card-text">Stay at home for saftey self and nation. </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Admission NOtice</li>
+                        <li class="list-group-item">Admission Result</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+    </div>
+
+
+</div>
+<div class="body">
+
+    <div class="row">
+        <div class="col-sm-9">
+
+            <div class="card-About" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">About US</li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-sm-3">
+
+            <div class="card-About-Result" style="width: 18rem;">
+
+                <div class="card-body">
+                    <h3 class="card-title">Result</h3>
+                    <p class="card-text">Stay at home for saftey self and nation. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Admission NOtice</li>
+                    <li class="list-group-item">Admission Result</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
 
 
         </div>
     </div>
 
 
-</div>
-<div class="body">
-    <h1>This is a Heading</h1>
+
 </div>
 
 <div class="footer">
