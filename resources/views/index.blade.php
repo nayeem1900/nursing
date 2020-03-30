@@ -2,270 +2,47 @@
 <html>
 <head>
     <title>Islami Bank Nursing Institute, Barisal</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    @include('layout.style')
 </head>
 <body>
 
-<div class="header">
+@include('layout.header')
 
+
+@include('layout.nav')
+
+
+@include('layout.slyder')
+<div class="container-3header">
     <div class="row">
-        <div class="col-md-8">
-            <div class="thumbnail">
 
-                    <img src="/images/banner.png"  style="width:80%">
-            </div>
-            </div>
+       @include('layout.left-centerside')
 
-
-            <div class="col-md-4">
-                <div class="thumbnail">
-                <p> hotline: 01818811220</p>
-                    <p> email:nayeembd84@gmail.com</p>
-
-
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </nav>
-
-                </div>
-                </div>
-
-
-
-            </div>
-
-
-
-
-</div>
-
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-        <a class="navbar-brand" href="">IBNIB</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">About US</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Admission
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Course
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Facilities</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Library</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Result</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Notice</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Photo Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Carrer</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-
-            </ul>
-        </div>
-        </div>
-    </nav>
-
-
-
-
-
-
-
-<div class="slider">
-
-    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="1000">
-                <img src="{{asset('/images/'. 'slider1.jpg')}}" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" data-interval="200">
-                <img src="{{asset('/images/'.'slider2.jpg')}}" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="{{asset('/images/'. 'sloder3.jpg')}}" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        @include('layout.rightsideup-container')
     </div>
-
-
-
-
 </div>
-<div class="3content">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="card-body">
-                       Message From Principal
-                    </div>
-                </div>
-
-                <div class="card-Left">
-                    <div class="card-body">
-                        This is some text within a card body.
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-sm-6">
-                <div class="card center">
-                    <div class="card-body">
-                        Latest News
-                    </div>
-                </div>
-
-                <div class="card-center" style="width: 18rem;">
-
-                    <div class="card-body">
-                        <h3 class="card-title">Office Notice</h3>
-                        <p class="card-text">Stay at home for saftey self and nation. </p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Admission NOtice</li>
-                        <li class="list-group-item">Admission Result</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
-
-
-                </div>
-
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="card-body">
-                       Notice Board
-                    </div>
-                </div>
-
-                <div class="card-center" style="width: 18rem;">
-
-                    <div class="card-body">
-                        <h3 class="card-title">Office Notice</h3>
-                        <p class="card-text">Stay at home for saftey self and nation. </p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Admission NOtice</li>
-                        <li class="list-group-item">Admission Result</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
 
 
 
-            </div>
-    </div>
 
-
-</div>
 <div class="body">
 
     <div class="row">
         <div class="col-sm-9">
 
-            <div class="card-About" style="width: 18rem;">
+            <div class="card-About" >
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">About US</li>
-
+<p>ইসলামী ব্যাংক নার্সিং কলেজ, রাজশাহী এক অনন্য নার্সিং কলেজ হিসেবে প্রতিষ্ঠিত হয়েছে। একদল দক্ষ ও আদর্শবান নার্স তৈরীর মহান উদ্দেশ্য সামনে রেখে বিভাগীয় শহর রাজশাহীতে প্রতিষ্ঠিত হয়েছে ইসলামী ব্যাংক নার্সিং কলেজ।</p>
                 </ul>
             </div>
 
         </div>
-        <div class="col-sm-3">
 
-            <div class="card-About-Result" style="width: 18rem;">
-
-                <div class="card-body">
-                    <h3 class="card-title">Result</h3>
-                    <p class="card-text">Stay at home for saftey self and nation. </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Admission NOtice</li>
-                    <li class="list-group-item">Admission Result</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-
-
+@include('layout.down-right-result')
+    @include('layout.footer')
 
 </div>
-
-<div class="footer">
-    <p>This is a paragraph.</p>
-
 </div>
-
-
-
 </body>
 </html>

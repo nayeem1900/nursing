@@ -18,3 +18,5 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 Route:: get('/',function(){ return view('index');});
+
+Route::get('pages.admission-info', 'PageController@admissioninfo');
